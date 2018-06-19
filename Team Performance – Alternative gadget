@@ -1,0 +1,18 @@
+Team Performance – Alternative gadget
+
+Alternative to cisco’s Team Performance gadget
+
+This sample gadget contains the following files:
+TeamPerformance.css
+TeamPerformance.js
+TeamPerformance.xml
+
+Usage:
+1.	SFTP the gadget contents to /3rdpartygadget/root/files
+2.	Edit layout xml in cfadmin to load the gadget /3rdpartygadget/files/TeamPerformance.xml
+3.	Log into the agent desktop.
+
+Advantages:
+1)	LoggedOut users doesn’t displayed
+2)	Agents without Supervisor role could browse own team’s persons list (without silent monitoring or state changing)
+3)	If supervisor has not own team in supervised teams he can browse own team’s persons list too (without silent monitoring or state changing)
